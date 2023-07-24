@@ -87,6 +87,7 @@ const Menu = () => {
                           <div className='my-1 text-[20px] lg:text-[40px] lg:my-6 text-accent font-semibold'>
                             
                           </div>
+                          <div>{price}</div>
                           <div>{description}</div>
                         </div>
                       </div>

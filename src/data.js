@@ -1,20 +1,17 @@
 // import icons
 import {
-  FaYoutube,
   FaFacebookF,
   FaInstagram,
-  FaPinterestP,
-  FaDiscord,
   FaWhatsapp,
 } from 'react-icons/fa';
 // import images
 import AboutImg from '../src/assets/img/about/chocotejas.png';
 import ModelWhiteImg from '../src/assets/img/model-white.png';
 import ModelBlackImg from '../src/assets/img/model-black.png';
-import MenuImg1 from '../src/assets/img/menu/1.jpg';
-import MenuImg2 from '../src/assets/img/menu/2.jpg';
-import MenuImg3 from '../src/assets/img/menu/3.jpg';
-import MenuImg4 from '../src/assets/img/menu/4.jpg';
+import MenuImg1 from '../src/assets/img/menu/chocotejas-almendras.jpg';
+import MenuImg2 from '../src/assets/img/menu/chocotejas-pecanas.jpg';
+import MenuImg3 from '../src/assets/img/menu/chocotejas-maní.jpg';
+import MenuImg4 from '../src/assets/img/menu/chocotejas-coco.jpg';
 import SignatureImg from '../src/assets/img/team/signature.png';
 import ChefImg from '../src/assets/img/team/chef.png';
 import Avatar1 from '../src/assets/img/testimonial/avatar1.png';
@@ -58,34 +55,34 @@ export const aboutData = {
 };
 
 export const menuData = {
-  title: 'deliciosos sabores de invierno',
-  subtitle: 'ver todo el menú para una comida sabrosa hoy',
+  title: 'deliciosas chocotejas',
+  subtitle: 'ver toda la variedad',
   modelImg: ModelWhiteImg,
-  btnText: 'ver el menu completo',
+  btnText: 'ver completo',
   menuItems: [
     {
       image: MenuImg1,
-      name: 'Torta de chocolate',
-
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Chocoteja de Almendras',
+      price: 'S/100.00',
+      description: 'lorem12',
     },
     {
       image: MenuImg2,
-      name: 'Medialunas de manteca',
-      price: '$9.49',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Chocoteja de Pecanas',
+      price: 'S/100.00',
+      description: 'lorem12',
     },
     {
       image: MenuImg3,
-      name: 'Medialunas de grasa',
-      price: '$8.50',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Chocoteja de Maní',
+      price: 'S/100.00',
+      description: 'lorem12',
     },
     {
       image: MenuImg4,
-      name: 'Sandwiches de miga',
-      price: '$9.99',
-      description: 'Class aptent taciti ciosqu litora torquent per',
+      name: 'Chocoteja de Coco',
+      price: 'S/100.00',
+      description: 'lorem12',
     },
   ],
 };
